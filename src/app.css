@@ -1,0 +1,44 @@
+.app{
+    width: 100;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+h1{
+    font-size:50px;
+}
+span{
+    margin: 12px 0;/* 12px em cima e em baixo e 0 nas laterias*/
+}
+.area-input{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.area-input input{
+    width: 100%;
+    margin-bottom: 12px;
+    height: 46px;
+    background-color: #121212;
+    border:0;
+    border-radius: 6px;
+    color: #fff;
+    padding:0 12px;/* 0 em cima e em baixo e 12 na esq e dire*/
+    text-align: center;
+    font-size:18px;
+}
+.area-input button{
+    width: 100%;
+    height: 46px;
+    border: 0;
+    border-radius: 6px;
+    background-color:green; /* cor do btn */
+    color: #fff; /* cor do texto */
+    font-size:18px;
+}
+h2{
+    margin-top:28px;  /* colocar texto mais abaixo do dbtn */
+}
