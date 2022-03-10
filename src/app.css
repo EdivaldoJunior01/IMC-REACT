@@ -42,3 +42,14 @@ span{
 h2{
     margin-top:28px;  /* colocar texto mais abaixo do dbtn */
 }
+
+/* responsividade abaixo */
+@media (max-width:410px){
+   h1{
+       font-size:35px;
+   }
+   .area-input{
+       width: 70%;
+   }
+
+}
